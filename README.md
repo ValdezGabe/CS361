@@ -8,11 +8,11 @@ This project implements a simple client-server architecture using sockets. The c
 ## A. Requesting Data from the Microservice
 
 ### Instructions
-1. Establish a connection to the server: Use a socket to connect to the server at the specified host and port. It should display a message "Server is listening on port 8081"
-2. Send the request: Once connected, send a request for the server to generate a random number. The request should include the maximum limit for the random number.
-3. Receive the server's prompt: The server will prompt you to enter the maximum number.
-4. Send the maximum number: Send the maximum number to the server.
-5. Receive the random number: The server will generate a random number within the specified range and send it back to you.
+1. Establish a connection to the server - `python rng.py`: Use a socket to connect to the server at the specified host and port. It should display a message `Server is listening on port 8081`
+2. Send the request - `python client.py`: Once connected, send a request for the server to generate a random number. The request should include the maximum limit for the random number.
+3. The server will prompt you to enter the maximum number.
+4. Send the maximum number to the server.
+5. The server will generate a random number within the specified range and send it back to you.
 
 Example Call:
 
@@ -23,9 +23,9 @@ Example Call:
 ## B. Receiving Data from the Microservice
 
 ### Instructions
-1. Read the server's prompt: After connecting, read the prompt message from the server asking for the maximum number.
-2. Send the maximum number: Respond to the prompt by sending the maximum number.
-3. Read the random number: Read the generated random number sent by the server.
+1. After connecting, read the prompt message from the server asking for the maximum number.
+2. Respond to the prompt by sending the maximum number.
+3. Read the generated random number sent by the server.
 
 
 ## UML Diagram:
