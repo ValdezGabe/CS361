@@ -1,7 +1,7 @@
 # Overview
 This project implements a simple client-server architecture using sockets. The client connects to the server and sends a request for the server to generate a random number. The client specifies a maximum limit, and the server generates a random number between 1 and this limit. The server then sends the generated random number back to the client.
 
-## Project Structure
+## Details
 - `client.py`: The server script that listens for client connections, receives the maximum limit, generates a random number, and sends it back to the client.
 - `rng.py`: The client script that connects to the server, sends the maximum limit for random number generation, and receives the random number from the server.
 
