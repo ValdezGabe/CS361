@@ -29,4 +29,4 @@ Example Call:
 ## UML Diagram:
 
 
-![image](https://github.com/GabeMValdez/CS361/assets/166589044/f6905895-7587-405c-8b01-2d1cca5e001b)
+![UML](https://github.com/ValdezGabe/CS361/assets/171638979/c51c836e-bf96-43ce-9bba-a04e0e7cb813)
