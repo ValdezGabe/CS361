@@ -17,15 +17,11 @@ def main():
 
         # Listen for incoming connections (allow up to 5 connections to queue up)
         server_socket.listen(5)
-        print("Server is listening on port", PORT)
 
         while True:
             # Accept a connection from a client
             conn, addr = server_socket.accept()
-            print("Connected to:", addr)
 
-            # Request maximum number from the client
-            conn.sendall(b"Please enter the maximum number: ")
             max_number = int(conn.recv(1024).decode())
 
             # Generate a random number
