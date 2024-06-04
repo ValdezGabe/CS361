@@ -10,10 +10,6 @@ def main():
         # Connect to the server
         client_socket.connect((SERVER_HOST, SERVER_PORT))
 
-        # Receive prompt for maximum number from the server
-        prompt = client_socket.recv(1024).decode()
-        print(prompt, end=' ')
-
         # Get the maximum number from the user
         max_number = input()
 
@@ -23,7 +19,7 @@ def main():
         # Receive the random number from the server
         random_number = client_socket.recv(1024).decode()
 
-        print("Random Number:", random_number)
+        print(random_number)
 
 if __name__ == "__main__":
     main()
